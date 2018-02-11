@@ -9,7 +9,7 @@ Follow these steps to add a basic scoring system to the barebones Pong game.  Re
 
 Property | Value
 --- | ---
-Position | **100,100** &amp; **500,100**, respectively 
+Position | **100,100** &amp; **500,100**
 Size |  **200, 100**
 Text | **0**
 Font | **Arial(36)**
@@ -34,10 +34,10 @@ GOAL  | Number | 11 | Score needed to win | Y
     * Right-click -> *Add event*
     * Chose "baseline" object (`PlayerBaseline`or `ComputerBaseline`)
     * *On collision with another object*
-        * *Object*: `Ball`
+        * Object: `Ball`
     * *Add action* -> *System* -> *Add to* (Under *Global &amp; local variables*) 
-        * *Variable*: `PlayerScore` or `ComputerScore`
-        * *Value*: **1**
+        * Variable: `PlayerScore` or `ComputerScore`
+        * Value: **1**
     
     
     

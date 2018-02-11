@@ -23,4 +23,4 @@ PlayerScore   | Number | 0 | Current score of Player  | N
 ComputerScore | Number | 0 | Current score of Computer| N
 GOAL  | Number | 11 | Score needed to win | Y
 
-6. Add an action to **On start of layout**, setting `PlayerScore` and `Computer Score` to `0`: Add Action -> System -> Set value (Under Global &amp; local variables) 
+6. Add an action to **On start of layout**, setting `PlayerScore` and `Computer Score` to `0`: *Add Action* -> *System* -> *Set value* (Under Global &amp; local variables) 

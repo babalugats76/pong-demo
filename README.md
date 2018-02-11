@@ -40,7 +40,7 @@ GOAL  | Number | 11 | Score needed to win | Y
             * Value: **1**
         * *Add action* -> Chose `TextPlayerScore` or `TextComputerScore` -> *Set text*
             * Text: `PlayerScore` or `ComputerScore`
-8. Add an event that checks for the **end of the game**. If the game is over, *sleep for 5 seconds* and the *restart the layout*:
+8. Add an event that checks for the **end of the game**. If the game is over, **restart the layout**:
     * *Add event*
         * *Compare two values* (Under *General*)
             * First value: `PlayerScore`

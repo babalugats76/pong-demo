@@ -38,7 +38,7 @@ GOAL  | Number | 11 | Score needed to win | Y
         * *Add action* -> *System* -> *Add to* (Under *Global &amp; local variables*) 
             * Variable: `PlayerScore` or `ComputerScore`
             * Value: **1**
-        * *Add action* -> Chose `TextPlayerScore` or `TextComputerScore` -> *Set text*
+        * *Add action* -> `TextPlayerScore` or `TextComputerScore` -> *Set text*
             * Text: `PlayerScore` or `ComputerScore`
 8. Add an event that checks for the **end of the game**. If the game is over, **restart the layout**:
     * *Add event*

@@ -2,7 +2,7 @@
 
 ## Adding a Basic Scoring System
 
-Follow these steps to add a basic scoring system to the barebones Pong game.  Remember, the goal of Pong is to get to **11 points** before the opponent. 
+Follow these steps to add a basic scoring system to the barebones Pong game.  Remember, the goal of Pong is to get to **11 points** before the opponent. Start with the `PongDemo.capx` Construct 2 project and modify according to the instructions. Reference `PongDemoScoring.capx` for what you project should look like when completed.
 
 1. With the `Game` layer active and unlocked, insert two new object types of the **Text** plugin type, e.g., `TextPlayerScore`, `TextComputerScore` which will **display the score** to the user
 2. Update the properties of the `TextPlayerScore` and `TextComputerScore` object instances

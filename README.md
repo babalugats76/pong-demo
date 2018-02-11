@@ -16,7 +16,7 @@ Follow these steps to add a basic scoring system to the barebones Pong game.  Re
 3. With the `Game` layer active and unlocked, insert two new object types of the Sprite plugin type, e.g., `ComputerBaseline`, `PlayerBaseline`, creating each as an **invisible sprites**
 4. Position the `ComputerBaseline` and `PlayerBaseline` carefully, stretching to be long and skinny and avoiding the sidelines
 5. With the `Pong Event Sheet` open add the following three variables (Right-click -> *Add global variable*)
-* Name | Type | Initial value  | Description | Constant (Y/N)
+Name | Type | Initial value  | Description | Constant (Y/N)
 --- | --- | --- | --- | ---
 PlayerScore   | Number | 0 | Current score of Player  | N
 ComputerScore | Number | 0 | Current score of Computer| N

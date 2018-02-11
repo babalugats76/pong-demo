@@ -6,7 +6,7 @@ Follow these steps to add a basic scoring system to the barebones Pong game.  Re
 
 1. With the `Game` layer active and unlocked, insert two new object types of the Text plugin type, e.g., `TextPlayerScore`, `TextComputerScore` which will **display the score** to the user
 2. Update the properties of the `TextPlayerScore` and `TextComputerScore` object instances
-    * __Position__: **100,100** &amp; **500,100**, respectively 
+    * ___Position___: **100,100** &amp; **500,100**, respectively 
     * *Size*: **200, 100**
     * *Text*: **0**
     * *Font*: **Arial(36)**

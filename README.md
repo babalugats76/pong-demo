@@ -30,7 +30,7 @@ GOAL  | Number | 11 | Score needed to win | Y
 6. Add an action to **On start of layout**, setting `PlayerScore` and `ComputerScore` to **0**; for each: 
     * *Add Action* -> *System* -> *Set value* (Under *Global &amp; local variables*) 
 
-7. Add an event (trigger) for `ComputerBaseline` and `PlayerBaseline` which **checks for collisions** with the `Ball` object type. If `Ball` collides with `ComputerBaseline`, increment `PlayerScore` by **1**; if `Ball` collides with `PlayerBaseline`, increment `ComputerScore` by **1**:
+7. Add an event (trigger) for `ComputerBaseline` and `PlayerBaseline` which **checks for collisions** with the `Ball` object type. If `Ball` collides with `ComputerBaseline`, increment `PlayerScore` by **1**; if `Ball` collides with `PlayerBaseline`, increment `ComputerScore` by **1**. You will also need to update the contents of the corresponding *Text* object type, i.e., `TextComputerScore` or `TextPlayerScore`
     * Right-click -> *Add event*
     * Chose `PlayerBaseline`or `ComputerBaseline`
     * *On collision with another object*
@@ -38,6 +38,8 @@ GOAL  | Number | 11 | Score needed to win | Y
     * *Add action* -> *System* -> *Add to* (Under *Global &amp; local variables*) 
         * Variable: `PlayerScore` or `ComputerScore`
         * Value: **1**
+    * *Add action* -> Chose `TextPlayerScore` or `TextComputerScore` -> *Set text*
+        * Text: `PlayerScore` or `ComputerScore`
     
     
     

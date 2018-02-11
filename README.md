@@ -48,10 +48,10 @@ GOAL  | Number | 11 | Score needed to win | Y
             * Second value: `GOAL`
     * Right-click -> *Make 'Or' block*
     * Right-click -> *Add* -> *Add another condition*
-            * *Compare two values* (Under *General*)
-                * First value: `ComputerScore`
-                * Comparison: = (Equal to)
-                * Second value: `GOAL`
+        * *Compare two values* (Under *General*)
+            * First value: `ComputerScore`
+            * Comparison: = (Equal to)
+            * Second value: `GOAL`
     
     
     

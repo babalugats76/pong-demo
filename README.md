@@ -31,7 +31,7 @@ GOAL  | Number | 11 | Score needed to win | Y
     * *Add Action* -> *System* -> *Set value* (Under *Global &amp; local variables*) 
 
 7. Add an event (trigger) for `ComputerBaseline` and `PlayerBaseline` which **checks for collisions** with the `Ball` object type. If `Ball` collides with `ComputerBaseline`, increment `PlayerScore` by **1**; if `Ball` collides with `PlayerBaseline`, increment `ComputerScore` by **1**. You will also need to update the contents of the corresponding *Text* object type, i.e., `TextComputerScore` or `TextPlayerScore` with the newly-updated value of the global variable:
-    * Right-click -> *Add event*
+    * *Add event*
         * Chose `PlayerBaseline`or `ComputerBaseline`
         * *On collision with another object*
             * Object: `Ball`
@@ -40,8 +40,8 @@ GOAL  | Number | 11 | Score needed to win | Y
             * Value: **1**
         * *Add action* -> Chose `TextPlayerScore` or `TextComputerScore` -> *Set text*
             * Text: `PlayerScore` or `ComputerScore`
-8. Add an event that checks for the **end of the game**:
-    * Right-click -> *Add event*
+8. Add an event that checks for the **end of the game**. If the game is over, *sleep for 5 seconds* and the *restart the layout*:
+    * *Add event*
         * *Compare two values* (Under *General*)
             * First value: `PlayerScore`
             * Comparison: = (Equal to)
@@ -52,6 +52,7 @@ GOAL  | Number | 11 | Score needed to win | Y
             * First value: `ComputerScore`
             * Comparison: = (Equal to)
             * Second value: `GOAL`
+    * *Add action* -> System -> *Restart layout* (Under *General*)
     
     
     

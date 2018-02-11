@@ -28,9 +28,7 @@ ComputerScore | Number | 0 | Current score of Computer| N
 GOAL  | Number | 11 | Score needed to win | Y
 
 6. Add an action to **On start of layout**, setting `PlayerScore` and `ComputerScore` to **0**; for each: 
-    * *Add Action*
-        * *System*
-            *Set value* (Under *Global &amp; local variables*) 
+    * *Add Action* -> *System* -> *Set value* (Under *Global &amp; local variables*) 
 
 7. Add an event (trigger) for `ComputerBaseline` and `PlayerBaseline` which **checks for collisions** with the `Ball` object type. If `Ball` collides with `ComputerBaseline`, increment `PlayerScore` by **1**; if `Ball` collides with `PlayerBaseline`, increment `ComputerScore` by **1**. You will also need to update the contents of the corresponding *Text* object type, i.e., `TextComputerScore` or `TextPlayerScore` with the newly-updated value of the global variable:
     * Right-click -> *Add event*
@@ -44,16 +42,16 @@ GOAL  | Number | 11 | Score needed to win | Y
             * Text: `PlayerScore` or `ComputerScore`
 8. Add an event that checks for the **end of the game**:
     * Right-click -> *Add event*
-        * `Compare two values` (Under *General*)
+        * *Compare two values* (Under *General*)
             * First value: `PlayerScore`
             * Comparison: = (Equal to)
             * Second value: `GOAL`
     * Right-click -> *Make 'Or' block*
     * Right-click -> *Add* -> *Add another condition*
-            * `Compare two values` (Under *General*)
-            * First value: `ComputerScore`
-            * Comparison: = (Equal to)
-            * Second value: `GOAL`
+            * *Compare two values* (Under *General*)
+                * First value: `ComputerScore`
+                * Comparison: = (Equal to)
+                * Second value: `GOAL`
     
     
     

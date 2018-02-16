@@ -15,7 +15,7 @@ Text | **0**
 Font | **Arial(36)**
 Color | **255,255,255** (White)
 Horizontal alignment | **Center**
-Vertical alignment* | **Center**
+Vertical alignment | **Center**
 
 3. With the `Game` layer active and unlocked, insert two new object types of the **Sprite** plugin type, e.g., `ComputerBaseline`, `PlayerBaseline`, creating each as an **invisible sprites**
 4. Position the `ComputerBaseline` and `PlayerBaseline` carefully, stretching to be **long and skinny**; avoiding sidelines
